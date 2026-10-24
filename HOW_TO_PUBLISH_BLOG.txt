@@ -1,0 +1,24 @@
+POOJA'S EASY BLOG WORKFLOW (NO HTML)
+
+ONE-TIME SETUP: Upload all files and folders in this ZIP to the ROOT of your GitHub Pages repository. Preserve _posts, _layouts, images, insights. In Settings > Pages, use Deploy from a branch, main, /(root). GitHub Pages builds the Markdown articles with Jekyll.
+
+TO ADD A BLOG POST:
+1. Open GitHub repository and open _posts.
+2. Choose Add file > Create new file.
+3. Name the file YYYY-MM-DD-short-title.md (example: 2026-10-24-disney-university.md).
+4. Open BLOG_TEMPLATE.md, copy its contents into your new file.
+5. Edit the title, date, category, description, and write your article as plain text. Keep the --- lines.
+6. Click Commit changes. The article page and the homepage blog card are generated automatically, usually within minutes.
+
+TO ADD A PHOTO:
+1. Open images/ in GitHub, then Add file > Upload files. Upload your photo, e.g. disney-university-book.jpg, and commit.
+2. In your blog article front matter, remove # from image and image_alt and use:
+image: /images/disney-university-book.jpg
+image_alt: "Pooja holding Disney U book"
+3. Commit changes. The photo displays at the top of your article and in its homepage card.
+
+NO HTML EDITING IS NEEDED FOR NEW POSTS. You still create a .md file and edit its text in GitHub. Fully form-based publishing (like WordPress) would require a CMS and authentication setup.
+
+Existing articles in insights/ remain available. New Markdown posts are added automatically above the existing three blog cards.
+
+IMPORTANT: The repository must be named workwithpoojagajjar.github.io to match the configured root address; if it is still a project repository, tell ChatGPT so paths can be adjusted.

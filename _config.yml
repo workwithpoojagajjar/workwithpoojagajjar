@@ -1,0 +1,6 @@
+title: The Growth Perspective | Pooja Gajjar
+description: Business insights, franchise operations and professional growth
+url: "https://workwithpoojagajjar.github.io"
+baseurl: ""
+permalink: /insights/:title/
+markdown: kramdown
