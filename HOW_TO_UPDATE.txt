@@ -1,0 +1,9 @@
+UPLOAD TO GITHUB PAGES
+
+Upload index.html, portrait.jpg, Pooja_Gajjar_Resume.pdf to the ROOT of your repository.
+Create a folder named insights and upload the three HTML article files inside it.
+Keep the folder structure exactly as in this ZIP.
+
+To publish a new blog article: duplicate an HTML file in insights/, rename it, edit its content, and add a new article card/link in index.html.
+
+Note: articles are original draft professional perspectives, not employer-approved or verified performance claims. Review before publishing.
